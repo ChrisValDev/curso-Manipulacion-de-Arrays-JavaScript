@@ -11,3 +11,25 @@ console.log('for', result);
 
 const result2 = numbers.every(item => item <= 40);
 console.log('every', result2);
+
+const team = [
+    {
+        name: 'Nicolas',
+        age: 12,
+    },
+    {
+        name: 'Andrea',
+        age: 8,
+    },
+    {
+        name: 'Zulema',
+        age: 2,
+    },
+    {
+        name: 'Santiago',
+        age: 18,
+    },
+];
+
+const result3 = team.every(item => item.age <= 17);
+console.log('every', result3);
