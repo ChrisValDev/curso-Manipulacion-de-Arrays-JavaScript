@@ -11,3 +11,11 @@ console.log('for', respFinal);
 
 respFinal2 = elements.join('--');
 console.log('join', respFinal2);
+
+const title = 'Curso de manipulacion de arrays';
+const array = title.split(' ');
+console.log(array);
+const newTitle = array.join('/');
+console.log(newTitle);
+const titleModific = newTitle.toLowerCase();
+console.log(titleModific);
