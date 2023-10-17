@@ -7,7 +7,21 @@
     </head>
     <body>
        <div id="app"></div>
+       <div id="clean">
+        <h1 id="title"></h1>
+       </div>
        <script>
+            const tasks = [
+                { name: 'bathroom', cleaned: 'complete',},
+                { name: 'kitchen', cleaned: 'complete',},
+                { name: 'bedroom', cleaned: 'complete',},
+                { name: 'office', cleaned: 'complete',},
+            ]
+            const clean = document.getElementById('clean');
+            tasks.forEach(task => {
+                clean.innerHTML += `</h1><li>${task.name} - ${task.cleaned} - </li><input type="checkbox">` 
+            });
+
             const products = [
                 { title: 'Burger', price: 120 },
                 { title: 'Pizza', price: 20 },
