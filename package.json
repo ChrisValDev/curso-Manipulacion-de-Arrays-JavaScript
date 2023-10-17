@@ -1,0 +1,26 @@
+{
+  "name": "maniparrjs",
+  "version": "1.0.0",
+  "description": "Curso de manipulacion de Arrays en JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ChrisValDev/Curso-Manipulaci-n-de-Arrays-JavaScript.git"
+  },
+  "keywords": [
+    "javascript",
+    "ecmascript"
+  ],
+  "author": "Christopher Jimenez <jimenez.valverde0805@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChrisValDev/Curso-Manipulaci-n-de-Arrays-JavaScript/issues"
+  },
+  "homepage": "https://github.com/ChrisValDev/Curso-Manipulaci-n-de-Arrays-JavaScript#readme",
+  "dependencies": {
+    "http-server": "14.1.1"
+  }
+}
